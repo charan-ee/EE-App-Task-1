@@ -1,9 +1,11 @@
 <resources>
-    <string name="app_name">FirstAppDemo</string>
+    <string name="app_name">User Details</string>
     <string name="Name">Name</string>
     <string name="button">Send</string>
     <string name="enter_name">Enter your Name</string>
     <string name="button_send">Send</string>
     <string name="textview">TextView</string>
     <string name="enter_age">Enter Age</string>
+    <string name="enter_email">Enter email</string>
+    <string name="enter_contact">Enter Contact</string>
 </resources>

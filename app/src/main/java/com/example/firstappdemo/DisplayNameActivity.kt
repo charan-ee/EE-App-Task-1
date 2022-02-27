@@ -13,12 +13,20 @@ class DisplayNameActivity : AppCompatActivity() {
 
         val name = bundle?.getString("name")
         val age = bundle?.getString("age")
+        val email = bundle?.getString("email")
+        val phone = bundle?.getString("phone")
 
-        val textViewName = findViewById<TextView>(R.id.textViewName).apply {
+        findViewById<TextView>(R.id.textViewName).apply {
             text = name
         }
-        val textViewAge = findViewById<TextView>(R.id.textViewAge).apply {
+        findViewById<TextView>(R.id.textViewAge).apply {
             text = age
+        }
+        findViewById<TextView>(R.id.textViewEmail).apply {
+            text = email
+        }
+        findViewById<TextView>(R.id.textViewPhone).apply {
+            text = phone
         }
 
 
